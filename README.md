@@ -1,5 +1,5 @@
 This provides an API and webpage to generate and validate Multiimage-Select CAPTCHAS. It can be implemented in your website or blog as well as in your mobile application.  
-If you don't or can't host it yourself, you can use our endpoint `https://beta.coflnet.com/api/v1/captcha`
+If you don't or can't host it yourself, you can use our endpoint `https://coflnet.com/api/v1/captcha`
 
 ## Installation
 If not done allready, install a copy of [userfrosting](https://learn.userfrosting.com/installation).  
