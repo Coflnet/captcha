@@ -1,0 +1,40 @@
+{
+    "bundle": {
+        "css/schule": {
+            "styles" : [
+                "schule/css/style.css"
+            ],
+            "options": {
+                "result": {
+                    "type": {
+                        "styles": "plain"
+                    }
+                }
+            }
+        },
+		"js/schule": {
+            "scripts" : [
+                "schule/js/logic.js"
+            ],
+            "options": {
+                "result": {
+                    "type": {
+                        "scripts": "plain"
+                    }
+                }
+            }
+        },
+		"js/schule-admin": {
+            "scripts" : [
+                "schule/js/logic-admin.js"
+            ],
+            "options": {
+                "result": {
+                    "type": {
+                        "scripts": "plain"
+                    }
+                }
+            }
+        }
+    }
+}

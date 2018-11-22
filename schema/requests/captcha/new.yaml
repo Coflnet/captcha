@@ -1,0 +1,7 @@
+---
+user_id:
+  transformations:
+  - purge
+result:
+  transformations:
+  - purge

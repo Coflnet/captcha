@@ -1,0 +1,29 @@
+{
+    "name": "coflnet/uf_captcha",
+    "type": "userfrosting-sprinkle",
+    "keywords": ["image-select-captcha", "captcha", "recaptcha-alternative","userfrosting"],
+    "description": "Image select CAPTCHA for an userfrosting V4 installation, meant as an alternative to the closed source google reCaptcha.",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Äkwav",
+            "homepage": "https://coflnet.com/ekwav"
+        },
+        {
+            "name": "Lukas Simmet",
+            "homepage": "https://coflnet.com/lukas-simmet"
+        }
+    ],
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "UserFrosting\\Sprinkle\\Captcha\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7"
+    },
+    "extra": {
+        "installer-name": "Captcha"
+    }
+}
